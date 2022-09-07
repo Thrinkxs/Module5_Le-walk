@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "le-walk",
+    "name": "Le-Walk",
     "slug": "le-walk",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/lewalk.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
