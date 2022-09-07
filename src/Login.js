@@ -20,8 +20,7 @@ const Login = ({navigation}) => {
       <TextInput style={styles.input} placeholder="Email" />
       <TextInput style={styles.input} placeholder="Password" />
       </View>
-      <TouchableOpacity style={styles.button}
-      onPress={() => navigation.navigate('Home')}>
+      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Home')}>
         <Text>Login</Text>
       </TouchableOpacity>
     </SafeAreaView>
