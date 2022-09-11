@@ -6,17 +6,20 @@ import Login from './src/Login';
 import Home from './src/Home/Home';
 import Profile from './src/Home/Profile';
 import Maindash from './src/Home/Maindash';
-
+import Details from './src/Home/Details';
 const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
+   
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name = "Login" component={Login}/>
         <Stack.Screen name = "Home" component={Home}/>
         <Stack.Screen name = "Profile" component={Profile} options={{title: 'Welcome'}}/>
         <Stack.Screen name = "Maindash" component={Maindash} options={{title: 'Demo'}}/>
+        <Stack.Screen name = "Details" component={Details} options={{title: 'Services'}}/>
+
       </Stack.Navigator>
     </NavigationContainer>
    

@@ -6,7 +6,7 @@ const image = require("../../assets/main.gif");
 const App = ({navigation}) => (
   
     <ImageBackground source={image} resizeMode="contain" style={styles.image}>
-        <Text style={{margin:20,borderRadius:15}} onPress={() => navigation.navigate('Maindash')}>
+        <Text style={{margin:20,borderRadius:15}} onPress={() => navigation.navigate('Home')}>
     Profile
         </Text>
     </ImageBackground>

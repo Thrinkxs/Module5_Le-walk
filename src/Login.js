@@ -9,18 +9,22 @@ import {
   TouchableOpacity,
 } from "react-native";
 
+
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height; 
 
 // create a component
 const Login = ({navigation}) => {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={styles.container}>
+       <Text style={{fontWeight: '100', fontSize: 34, marginBottom: 10}}>
+        Welcome</Text>
+        <Text style={{marginBottom: 10, fontSize: 18}}>Sign in to continue</Text>
       <View style={styles.form}>
       <TextInput style={styles.input} placeholder="Email" />
       <TextInput style={styles.input} placeholder="Password" />
       </View>
-      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Home')}>
+      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Profile')}>
         <Text>Login</Text>
       </TouchableOpacity>
     </SafeAreaView>
